@@ -1,0 +1,69 @@
+  * { 
+            border: 0;
+            padding: 0;
+            margin: 0;
+            }
+      #wrapper {
+                width: 1100px;
+                margin: 0 auto;
+                border: 2px solid #ccc;
+            }
+            #header {
+                height: 250px; 
+                background-image: url(banner.jpg);
+                background-repeat: no-repeat; 
+            }
+            #nav {
+                height: 50px;
+                background-color:#fd8c8c;
+            }
+                #nav ul {
+                list-style-type: none;
+            }
+                    #nav ul li {
+                        width: auto;
+                        float: left;
+                        border-left: 1px solid #ffb9b9;
+            }
+                                #nav ul li a {
+                                        display: block;
+                                        padding: 10px 30px; 
+                                        font-size: 18px;
+                                        color: #fff;
+                                        Font-type: Ariel
+                                        text-decoration: none;
+                                        Font-weight: bold; 
+                                        } 
+                                                #nav ul li a:hover {
+                                                    background-color: #fa5f5f;
+                                                    color:bisque
+                                                    }
+                                                #nav ul li a:active { 
+                                                        background-color: #fff;
+                                                    }
+                                                #nav ul li a: visited {
+                                                        background-color:#ccc;
+                                                        color: bisque
+                                                    }
+
+    #content {
+            }
+            #sidebar {
+                width: 350px;
+                min-height: 500px;
+                float: left;
+                background-color: rgba(255, 137, 137, 0.65);
+            }
+             #main_content {
+                width:750px;
+                min-height: 500px;
+                background-color:#fd8c8c;
+                float: right;
+            }
+            #footer {
+                height: 75px;
+                background-color:#fd8c8c;
+            }
+            .clear {
+            clear: both;
+            }
